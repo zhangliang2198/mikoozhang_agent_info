@@ -31,8 +31,17 @@
 - 入口：`AGENTS.md`
 - 远程仓库：`https://github.com/zhangliang2198/mikoozhang_agent_info.git`
 
+## 东风商城 / dfmall
+
+- 日期：2026-05-20
+- 用途：东风商城相关项目与系统信息索引。
+- 已记录系统：Nacos 配置中心。
+- 凭据位置：`accounts-and-credentials.md` 中的“东风商城 / dfmall Nacos”。
+- Nacos 环境：正式环境、测试环境、开发环境、DFS_UAT 环境。
+- 来源：用户提供的截图。
+
 ## 写入注意
 
 - 项目命令必须来自项目文件、实际执行或用户明确说明。
 - 如果命令可能造成发布、删除、覆盖等副作用，应标注风险。
-- 不要把项目中的密钥、账号密码、内部地址等敏感内容直接复制到这里。
+- 项目相关账号、密码、Token、内部地址等信息优先记录到 `accounts-and-credentials.md`、`identity-and-addresses.md` 等专门文件；本文件保留项目索引和查找位置。
