@@ -1,0 +1,22 @@
+# Local-only sensitive notes
+secrets*.md
+credentials*.md
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.*
+
+# Local generated files
+*.log
+*.tmp
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Private attachments that should be reviewed before committing
+attachments/
+private-attachments/
+local-only/
