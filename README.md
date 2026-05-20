@@ -9,6 +9,10 @@
 - `AGENTS.md`：总入口，说明这个记忆库的用途、写入规则和查找规则。
 - `profile.md`：用户基础信息、长期稳定偏好和个人工作习惯。
 - `personal-profile.md`：偏个人管理的基础信息、生活画像和长期约束。
+- `accounts-and-credentials.md`：账号、密码、Token、API Key、私钥、恢复码和凭据使用说明。
+- `identity-and-addresses.md`：证件、地址、收件信息、发票抬头和身份资料。
+- `medical-records.md`：医疗档案、体检、处方、用药、检查报告和复查记录。
+- `emergency-info.md`：紧急联系人、账号恢复方式和应急处理信息。
 - `ai-collaboration.md`：AI 协作方式、默认执行策略和记忆写入判断。
 - `tasks.md`：个人待办、任务队列、下一步动作和任务管理规则。
 - `reminders-and-automations.md`：提醒、定时任务、周期任务和自动化记录。
@@ -29,8 +33,8 @@
 - `preferences.md`：UI、文案、沟通、交付等偏好。
 - `troubleshooting.md`：已验证的问题排查记录和解决方案。
 - `decisions.md`：长期技术决策记录。
-- `security.md`：敏感信息处理规则和提交前安全检查。
-- `private-notes.md`：个人但非高敏感的私有说明。
+- `security.md`：敏感信息分类、保存位置、更新规则和使用流程。
+- `private-notes.md`：不适合放入其他主题文件的个人说明。
 
 ## 使用方式
 
@@ -38,4 +42,4 @@
 2. 根据任务主题读取对应 `.md` 文件。
 3. 如果对话中产生了长期有用的新信息，写入对应文件。
 4. 如果新增了主题文件，同时更新 `AGENTS.md` 和本文件的索引。
-5. 不把密码、Token、私钥、身份证号、银行卡号、完整住址、医疗报告等高敏感内容明文提交到仓库。
+5. 账号、密码、证件、地址、医疗、财务等信息按主题写入对应文件，记录来源、更新时间和使用规则。

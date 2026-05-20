@@ -1,13 +1,3 @@
-# Local-only sensitive notes
-secrets*.md
-credentials*.md
-*.key
-*.pem
-*.p12
-*.pfx
-.env
-.env.*
-
 # Local generated files
 *.log
 *.tmp
